@@ -20,7 +20,7 @@ header{
   background-color: #373b69;
   display: flex;
   padding: 1rem;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .search{
@@ -87,5 +87,12 @@ header{
 }
 .movie:hover .movie-over{
   transform: translateY(0%);
+}
+
+@media (max-width: 900px){
+  .search{
+    width: 100%;
+    font-size: 1rem;
+  }
 }
 

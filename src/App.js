@@ -35,7 +35,7 @@ useEffect(() => {
   return (<>
     <header>
       <form onSubmit={handleOnSubmit}>
-      <input className="search" placeholder="Search..." type="search" value={searchTearm} onChange={handleOnChange} />
+      <input className="search" placeholder="Search Movies" type="search" value={searchTearm} onChange={handleOnChange} />
       </form>
     </header>
     <div className="movie-container">
